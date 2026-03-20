@@ -1,34 +1,28 @@
 {
-	"schemaVersion": 1,
-	"id": "template-mod",
-	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.TemplateMod"
-		],
-		"fabric-datagen": [
-			"com.example.TemplateModDataGenerator"
-		]
-	},
-	"mixins": [
-		"template-mod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+    "schemaVersion": 1,
+    "id": "oozing-floor",
+    "version": "1.0.0",
+    "name": "Oozing Floor Sumo",
+    "description": "A wind charge sumo game!",
+    "authors": [
+        "Ansh "
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/template-mod/icon.png",
+    "environment": "server",
+    "entrypoints": {
+        "main": [
+            "com.lumen.oozing.OozingMod"
+        ]
+    },
+    "mixins": [
+        "template-mod.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
 }
