@@ -13,7 +13,7 @@ public class SumoCommand {
                     if (player != null) {
                         var pos = player.getBlockPos();
                         String output = "new BlockPos(" + pos.getX() + ", " + pos.getY() + ", " + pos.getZ() + ")";
-                        context.getSource().sendFeedback(() -> Text.literal("§6Config Format: §f" + output), false);
+                        context.getSource().sendFeedback(() -> Text.literal("§6Config: §f" + output), false);
                     }
                     return 1;
                 }));
