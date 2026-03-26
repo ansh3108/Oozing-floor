@@ -4,7 +4,7 @@ It is a minigame with a theme *Everything is Changing*.
 
 ## Features:
 
-### 1. Flipping Surfac
+### 1. Flipping Surface
 Every 30 seconds, the entire arena floor swaps between *Slime* and *Honey* blocks.
 - Slime has high bounce and one knockback hit can send you across the map.
 - Honey has sticky movement and reduced jump height!

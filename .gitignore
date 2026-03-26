@@ -24,7 +24,7 @@ bin/
 .DS_Store
 
 
-run/
+run/*
 
 
 hserr.log
@@ -55,7 +55,6 @@ bin/
 
 .DS_Store
 
-run/
 !run/saves/
 
 
