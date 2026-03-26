@@ -1,22 +1,18 @@
-# gradle
-
+gradle
 .gradle/
 build/
 out/
 classes/
 
-# eclipse
 
 *.launch
 
-# idea
 
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# vscode
 
 .settings/
 .vscode/
@@ -24,17 +20,46 @@ bin/
 .classpath
 .project
 
-# macos
 
-*.DS_Store
+.DS_Store
 
-# fabric
 
 run/
 
-# java
 
-hs_err_*.log
-replay_*.log
+hserr.log
+replay_.log
+*.hprof
+*.jfr
+gradle
+.gradle/
+build/
+out/
+classes/
+
+
+*.launch
+
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+
+.DS_Store
+
+run/
+!run/saves/
+
+
+hserr.log
+replay_.log
 *.hprof
 *.jfr
